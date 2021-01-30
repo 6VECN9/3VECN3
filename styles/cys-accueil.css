@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Raleway', sans-serif;
+    src: url("'https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap'");
+}
+body {
+    background-image: url("images-cys/background1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif;
+}
+#navigation {
+    display: flex;
+    flex-direction:row ;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.child {
+    color: white;
+    font-size: large;
+    padding: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+div {
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    width: 350px;
+    height: 300px;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.text {
+    font-size: large;
+}
