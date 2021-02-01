@@ -1,2 +1,2 @@
-# 3VECN3
+# FindYourSpot
 Wow incredible project!
