@@ -1,12 +1,15 @@
 @font-face {
-    font-family: 'Raleway', sans-serif;
-    src: url("'https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap'");
+    /* Font for text */
+    font-family: 'Roboto', sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+    /* Font for titles */
+    font-family: 'Archivo', sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Archivo&family=Roboto:wght@300&display=swap");
 }
 body {
     background-image: url("../images/background1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'Raleway', sans-serif;
 }
 #navigation {
     display: flex;
@@ -14,6 +17,7 @@ body {
     justify-content: flex-start;
     flex-wrap: wrap;
     list-style: none;
+    font-family: 'Archivo', sans-serif;
 }
 
 .child {
@@ -39,6 +43,7 @@ div {
     height: 300px;
     background-color: black;
     border-radius: 50px;
+    font-family: 'Archivo', sans-serif;
 }
 
 .text {
