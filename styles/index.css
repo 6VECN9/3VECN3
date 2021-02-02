@@ -7,7 +7,7 @@
     src: url("https://fonts.googleapis.com/css2?family=Archivo&family=Roboto:wght@300&display=swap");
 }
 body {
-    background-image: url("../images/background1.jpg");
+    background-image: url("../images/image1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
