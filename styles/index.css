@@ -10,24 +10,47 @@ body {
     background-image: url("../images/image1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 0;
 }
-#navigation {
-    display: flex;
-    flex-direction:row ;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    list-style: none;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;  
     font-family: 'Archivo', sans-serif;
 }
 
-.child {
-    color: white;
-    font-size: large;
-    padding: 25px;
+li {
+    display: inline;
+    float: left;
+    border-right: 1px solid white;
 }
 
 a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: slategrey;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+.active {
+    background-color: royalblue;
 }
 
 div {
