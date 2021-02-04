@@ -10,9 +10,8 @@ body {
     background-image: url("../images/image1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 0;
 }
-ul {
+#navigation {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -24,13 +23,16 @@ ul {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;  
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
     font-family: 'Archivo', sans-serif;
 }
 
 li {
     display: inline;
     float: left;
-    border-right: 1px solid white;
 }
 
 a {
@@ -42,11 +44,7 @@ a {
 }
 
 li a:hover:not(.active) {
-    background-color: slategrey;
-}
-
-li:last-child {
-    border-right: none;
+    background-color: royalblue;
 }
 
 .active {
