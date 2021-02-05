@@ -8,9 +8,8 @@
 }
 
 body {
-    background-image: url(../images/image5.png);
+    background-image: url(../images/background1.jpg);
     background-attachment: fixed;
-    background-size: cover;
 }
 #navigation {
     list-style-type: none;
@@ -31,12 +30,12 @@ body {
     font-family: 'Archivo', sans-serif;
 }
 
-li {
+#navigation li {
     display: inline;
     float: left;
 }
 
-a {
+#navigation a {
     display: block;
     color: white;
     text-align: center;
@@ -44,24 +43,50 @@ a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
-    background-color: royalblue;
+#navigation li a:hover:not(.active) {
+    background-color: deepskyblue;
 }
 
 .active {
-    background-color: royalblue;
+    background-color: deepskyblue;
 }
 
 .fys-text {
     font-size: xx-large;
     text-align: center;
     color: white;
-    margin-top: 200px;
+    margin-top: 250px;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Archivo', sans-serif;
+    text-shadow: 1px 1px 2px #333;
 }
 
 .text {
     font-size: large;
+}
+
+#button-discover {
+    list-style-type: none;
+    color: white;
+    font-size: x-large;
+    font-family: 'Archivo', sans-serif;
+    text-align: center;
+    width: 150px;
+    border-radius: 50px;
+    overflow: hidden;
+    background-color: deepskyblue;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#button-discover a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+#button-discover a:hover {
+    background-color: #333;
 }
