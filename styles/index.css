@@ -8,21 +8,25 @@
 }
 
 body {
-    background-image: url(../images/background1.jpg);
-    background-attachment: fixed;
+    background-image: url(../images/background1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
+
+#sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 10px;
+}
+
 #navigation {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    position: fixed;
     top: 0;
-    width: 100%;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;  
+    width: 100%;  
     border-bottom-left-radius: 25px;
     border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -55,11 +59,10 @@ body {
     font-size: xx-large;
     text-align: center;
     color: white;
-    margin-top: 250px;
+    margin-top: 200px;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Archivo', sans-serif;
-    text-shadow: 1px 1px 2px #333;
 }
 
 .text {
@@ -89,4 +92,30 @@ body {
 }
 #button-discover a:hover {
     background-color: #333;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    color: #333;
+    text-align: center;
+    width: 200px;
+    height: 250px;
+    padding: 40px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 25px;
+    box-shadow: 1px 1px 20px black;
+}
+
+article h2 {
+    font-family: 'Archivo', sans-serif;
+}
+
+article p {
+    font-family: 'Roboto', sans-serif;
 }
