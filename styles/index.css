@@ -13,6 +13,7 @@ body {
     background-image: url(../images/background1.png);
     background-repeat: no-repeat;
     background-size: contain;
+    background-color: whitesmoke;
 }
 
 #bloc-page {
@@ -119,7 +120,7 @@ article {
     box-shadow: 1px 1px 10px rgb(88, 88, 88);
 }
 
-article img:not(.picto1) {
+.article-img1 {
     width: 150px;
     height: 100px;
     margin-top: 10px;
@@ -137,6 +138,33 @@ article h2 {
 
 article p {
     font-family: 'Roboto', sans-serif;
+}
+
+#bloc1 {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 175px;
+    text-align: center;
+}
+
+#titles1 {
+    color: #333;
+    font-family: 'Archivo', sans-serif;
+}
+
+#article2 {
+    width: 215px;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.article-img2 {
+    width: 190px;
+    height: 125px;
+    border-radius: 15px;
+    margin-top: 10px;
 }
 
 }
