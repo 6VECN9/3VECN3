@@ -1,0 +1,45 @@
+#bloc2 {
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 175px;
+    text-align: center;
+}
+
+#bloc2 h2 {
+    color: whitesmoke;
+}
+
+#section2 {
+    display: flex;
+    margin-top: 100px;
+}
+
+#section2 a {
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    width: 215px;
+    height: 300px;
+    padding: 10px;
+    margin: auto;
+    background-color: white;
+    display: inline-block;
+    border-radius: 25px;
+    border: 3px solid deepskyblue;
+    box-shadow: 1px 1px 10px rgb(88, 88, 88);
+}
+
+#section2 a:hover {
+    color: white;
+    background-color: #333;
+    border: 3px solid white;
+}
+
+.article-img2 {
+    width: 190px;
+    height: 125px;
+    border-radius: 15px;
+    margin-top: 10px;
+}

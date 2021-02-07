@@ -96,28 +96,28 @@ p {
 }
 
 #button-discover {
-    color: white;
-    font-size: x-large;
-    text-align: center;
-    width: 150px;
-    border-radius: 50px;
-    border: 2px solid white;
-    overflow: hidden;
-    background-color: deepskyblue;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
 }
 
 #button-discover a {
-    display: block;
-    color: white;
-    padding: 10px;
     text-align: center;
     text-decoration: none;
+    color: white;
+    width: 175px;
+    overflow: hidden;
+    background-color: #333;
+    border: 3px solid white;
+    border-radius: 25px;
+    display: inline-block;
+    margin: auto;
+    font-size: x-large;
+    padding: 10px;
     font-family: 'Ubuntu', sans-serif;
 }
 #button-discover a:hover {
-    background-color: #333;
+    background-color: deepskyblue;
+    color: white;
+    border: 3px solid white;
 }
 
 /* Second Part */
@@ -126,8 +126,10 @@ p {
     display: flex;
 }
 
-.article1 {
+#section1 a {
     text-align: center;
+    text-decoration: none;
+    color: #333;
     width: 200px;
     height: 275px;
     padding: 10px;
@@ -140,81 +142,19 @@ p {
     box-shadow: 1px 1px 10px rgb(90, 90, 90);
 }
 
-.article1 h2 {
-    color: #333;
+#section1 a:hover {
+    background-color: deepskyblue;
+    border: 3px solid white;
+    color: white;
 }
 
-.article1 p {
-    color: #333;
-}
-
-.article-img1 {
-    width: 150px;
-    height: 100px;
-    margin-top: 10px;
-}
-
-.pictod {
+.picto {
     width: 100px;
     height: 100px;
     margin-top: 10px;
 }
 
-.pictop {
-    width: 110px;
-    height: 100px;
-    margin-top: 10px;
-}
-
 /* Third Part */
-
-#bloc2 {
-    margin-top: 75px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    height: 175px;
-    text-align: center;
-}
-
-#bloc2 h2 {
-    color: whitesmoke;
-}
-
-#section2 {
-    display: flex;
-    margin-top: 100px;
-}
-
-#section2 a {
-    text-decoration: none;
-    color: #333;
-    text-align: center;
-    width: 215px;
-    height: 300px;
-    padding: 10px;
-    margin: auto;
-    background-color: white;
-    display: inline-block;
-    border-radius: 25px;
-    border: 3px solid deepskyblue;
-    box-shadow: 1px 1px 10px rgb(88, 88, 88);
-}
-
-#section2 a:hover {
-    color: white;
-    background-color: #333;
-    border: 3px solid white;
-}
-
-.article-img2 {
-    width: 190px;
-    height: 125px;
-    border-radius: 15px;
-    margin-top: 10px;
-}
-
-/* Fourth Part */
 
 #bloc3 {
     margin-top: 75px;
