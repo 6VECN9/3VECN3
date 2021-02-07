@@ -202,15 +202,9 @@ p {
 }
 
 #section2 a:hover {
-
-}
-
-#article2 h2 {
-    color: #333;
-}
-
-#article p {
-    color: #333;
+    color: white;
+    background-color: #333;
+    border: 3px solid white;
 }
 
 .article-img2 {
