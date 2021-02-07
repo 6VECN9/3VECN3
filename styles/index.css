@@ -168,3 +168,13 @@ article {
 #bloc3 {
     margin-top: 75px;
 }
+
+#email {
+    width: 250px;
+    padding: 5px;
+}
+
+#send {
+    width: 75px;
+    padding: 5px;
+}
