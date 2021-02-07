@@ -90,12 +90,12 @@ p {
 }
 
 #button-discover {
-    list-style-type: none;
     color: white;
     font-size: x-large;
     text-align: center;
     width: 150px;
     border-radius: 50px;
+    border: 2px solid white;
     overflow: hidden;
     background-color: deepskyblue;
     margin-left: auto;
@@ -108,6 +108,7 @@ p {
     padding: 10px;
     text-align: center;
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
 }
 #button-discover a:hover {
     background-color: #333;
@@ -137,7 +138,13 @@ article {
     margin-top: 10px;
 }
 
-.picto1 {
+.pictod {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.pictop {
     width: 110px;
     height: 100px;
     margin-top: 10px;
@@ -177,4 +184,14 @@ article {
 #send {
     width: 75px;
     padding: 5px;
+}
+
+footer {
+    background-color: #333;
+    background-size: cover;
+}
+
+.picto-footer {
+    width: 75px;
+    height: 75px;
 }
