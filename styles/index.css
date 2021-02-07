@@ -1,10 +1,11 @@
 @font-face {
+    /* Font for titles */
+    font-family: 'Montserrat', sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
     /* Font for text */
     font-family: 'Roboto', sans-serif;
     src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-    /* Font for titles */
-    font-family: 'Archivo', sans-serif;
-    src: url("https://fonts.googleapis.com/css2?family=Archivo&family=Roboto:wght@300&display=swap");
+
 }
 
 @media all and (min-width: 1024px) and (max-width: 1600px) {
@@ -19,6 +20,15 @@ body {
 #bloc-page {
     width: 1024px;
     margin: auto;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
 }
 
 #sticky {
@@ -39,7 +49,7 @@ body {
     border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;
     border-top-right-radius: 25px;
-    font-family: 'Archivo', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 #navigation li {
@@ -63,14 +73,18 @@ body {
     background-color: deepskyblue;
 }
 
-.fys-text {
+#bloc1 {
     font-size: xx-large;
     text-align: center;
     color: white;
     margin-top: 150px;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Archivo', sans-serif;
+}
+
+#fys {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .text {
@@ -81,7 +95,6 @@ body {
     list-style-type: none;
     color: white;
     font-size: x-large;
-    font-family: 'Archivo', sans-serif;
     text-align: center;
     width: 150px;
     border-radius: 50px;
@@ -132,26 +145,13 @@ article {
     margin-top: 10px;
 }
 
-article h2 {
-    font-family: 'Archivo', sans-serif;
-}
-
-article p {
-    font-family: 'Roboto', sans-serif;
-}
-
-#bloc1 {
-    margin-top: 100px;
+#bloc2 {
+    margin-top: 75px;
     margin-left: auto;
     margin-right: auto;
     width: 200px;
     height: 175px;
     text-align: center;
-}
-
-#titles1 {
-    color: #333;
-    font-family: 'Archivo', sans-serif;
 }
 
 #article2 {
@@ -165,6 +165,10 @@ article p {
     height: 125px;
     border-radius: 15px;
     margin-top: 10px;
+}
+
+#bloc3 {
+    margin-top: 75px;
 }
 
 }
