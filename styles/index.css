@@ -12,10 +12,11 @@ body {
     background-image: url(../images/background3.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: top;
-    background-color: #caf0f8;
+    background-color: #333;
 
 }
+
+/* First Part */
 
 #bloc-page {
     width: 1024px;
@@ -24,7 +25,6 @@ body {
 
 h2 {
     font-family: 'Montserrat', sans-serif;
-    color: #333;
 }
 
 p {
@@ -50,6 +50,7 @@ p {
     border-bottom-right-radius: 25px;
     border-top-right-radius: 25px;
     font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
 }
 
 #navigation li {
@@ -85,10 +86,12 @@ p {
 #fys {
     color: white;
     font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 1px 1px #33415c;
 }
 
 .text {
     font-size: large;
+    text-shadow: 1px 1px 1px #33415c;
 }
 
 #button-discover {
@@ -116,12 +119,13 @@ p {
     background-color: #333;
 }
 
-section {
+/* Second Part */
+
+#section1 {
     display: flex;
 }
 
-article {
-    color: #333;
+.article1 {
     text-align: center;
     width: 200px;
     height: 275px;
@@ -131,7 +135,16 @@ article {
     background-color: white;
     display: inline-block;
     border-radius: 25px;
-    box-shadow: 1px 1px 10px rgb(88, 88, 88);
+    border: 3px solid deepskyblue;
+    box-shadow: 1px 1px 10px rgb(90, 90, 90);
+}
+
+.article1 h2 {
+    color: #333;
+}
+
+.article1 p {
+    color: #333;
 }
 
 .article-img1 {
@@ -152,6 +165,8 @@ article {
     margin-top: 10px;
 }
 
+/* Third Part */
+
 #bloc2 {
     margin-top: 75px;
     margin-left: auto;
@@ -161,14 +176,34 @@ article {
     text-align: center;
 }
 
+#bloc2 h2 {
+    color: whitesmoke;
+}
+
 #section2 {
+    display: flex;
     margin-top: 100px;
 }
 
 #article2 {
+    text-align: center;
     width: 215px;
     height: 300px;
-    margin-top: 0px;
+    padding: 10px;
+    margin: auto;
+    background-color: white;
+    display: inline-block;
+    border-radius: 25px;
+    border: 3px solid deepskyblue;
+    box-shadow: 1px 1px 10px rgb(88, 88, 88);
+}
+
+#article2 h2 {
+    color: #333;
+}
+
+#article p {
+    color: #333;
 }
 
 .article-img2 {
@@ -178,8 +213,11 @@ article {
     margin-top: 10px;
 }
 
+/* Fourth Part */
+
 #bloc3 {
     margin-top: 75px;
+    color: white;
 }
 
 #email {
@@ -194,14 +232,23 @@ article {
 
 footer {
     display: flex;
+    background-color: #6c757d;
+    border: 3px solid deepskyblue;
+    margin-top: 75px;
+    border-radius: 25px;
+    text-align: center;
 }
 
 .article3 {
     display: inline-block;
-    margin-top: 50px;
+    width: 70px;
+    height: 55px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .picto-footer {
-    width: 75px;
-    height: 75px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
 }
