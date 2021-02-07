@@ -45,6 +45,7 @@ p {
     background-color: #333;
     top: 0;
     width: 100%;  
+    border: 2px solid white;
     border-bottom-left-radius: 25px;
     border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -185,7 +186,9 @@ p {
     margin-top: 100px;
 }
 
-#article2 {
+#section2 a {
+    text-decoration: none;
+    color: #333;
     text-align: center;
     width: 215px;
     height: 300px;
@@ -196,6 +199,10 @@ p {
     border-radius: 25px;
     border: 3px solid deepskyblue;
     box-shadow: 1px 1px 10px rgb(88, 88, 88);
+}
+
+#section2 a:hover {
+
 }
 
 #article2 h2 {
@@ -223,11 +230,13 @@ p {
 #email {
     width: 250px;
     padding: 5px;
+    border: 2px solid deepskyblue;
 }
 
 #send {
     width: 75px;
     padding: 5px;
+    border: 2px solid deepskyblue;
 }
 
 footer {
