@@ -9,6 +9,9 @@
 }
 
 body {
+    background-image: url(../images/background02.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
     background-color: #333;
 }
 
@@ -19,7 +22,7 @@ body {
     margin: auto;
 }
 
-h2 {
+h1, h2 {
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -27,22 +30,67 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
-#bloc2 {
-    margin-top: 75px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    height: 175px;
-    text-align: center;
+#sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 10px;
 }
 
-#bloc2 h2 {
+#navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+    border: 2px solid white;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    font-family: 'Ubuntu', sans-serif;
     color: whitesmoke;
+}
+
+#navigation li {
+    display: inline;
+    float: left;
+}
+
+#navigation a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navigation li a:hover:not(.active) {
+    background-color: orange;
+}
+
+.active {
+    background-color: orange;
+}
+
+#spots {
+    text-align: center;
+    margin-top: 300px;
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 1px 1px #333;
+}
+
+#spots-p {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px #333;
 }
 
 #section2 {
     display: flex;
-    margin-top: 100px;
+    margin-top: 225px;
 }
 
 #section2 a {
@@ -56,7 +104,7 @@ p {
     background-color: white;
     display: inline-block;
     border-radius: 25px;
-    border: 3px solid deepskyblue;
+    border: 3px solid orange;
     box-shadow: 1px 1px 10px rgb(88, 88, 88);
 }
 
