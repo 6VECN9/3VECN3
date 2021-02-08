@@ -76,17 +76,46 @@ p {
 
 #spots {
     text-align: center;
-    margin-top: 300px;
-    font-size: 50px;
+    margin-top: 250px;
+    margin-bottom: 0;
+    font-size: 70px;
     color: white;
     text-shadow: 1px 1px 1px #333;
 }
 
 #spots-p {
     text-align: center;
+    font-size: 20px;
     color: white;
     text-shadow: 1px 1px 1px #333;
 }
+
+#button-galerie {
+    display: flex;
+}
+
+#button-galerie a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    width: 175px;
+    overflow: hidden;
+    background-color: #333;
+    border: 3px solid white;
+    border-radius: 25px;
+    display: inline-block;
+    margin: auto;
+    font-size: x-large;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#button-galerie a:hover {
+    background-color: orange;
+    color: white;
+    border: 3px solid white;
+}
+
+/* Second part */
 
 #section2 {
     display: flex;
