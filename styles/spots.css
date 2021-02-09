@@ -124,24 +124,24 @@ p {
 }
 
 #buttonnordsud {
-    display: block;
+    display: flex;
     margin-top: 10px;
 }
 
 #buttonnordsud a {
     text-decoration: none;
     color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: x-large;
     text-align: center;
     width: 175px;
+    padding: 10px;
     display: inline-block;
     overflow: hidden;
-    margin: auto;
     background-color: #333;
     border: 3px solid white;
     border-radius: 25px;
-    font-size: x-large;
-    padding: 10px;
-    font-family: 'Ubuntu', sans-serif;
+    margin: auto;
 }
 #buttonnordsud a:hover {
     background-color: orange;
