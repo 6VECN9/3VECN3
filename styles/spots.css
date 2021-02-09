@@ -123,6 +123,11 @@ p {
     margin-top: 150px;
 }
 
+#bloc-page2 {
+    width: 479px;
+    margin: auto;
+}
+
 #buttonnordsud {
     display: flex;
     margin-top: 10px;
