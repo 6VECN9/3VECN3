@@ -1,0 +1,82 @@
+@font-face {
+    /* Font for titles */
+    font-family: 'Ubuntu', sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+    /* Font for text */
+    font-family: 'Roboto', sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+}
+
+body {
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #333;
+
+}
+
+/* First Part */
+
+#bloc-page {
+    width: 1024px;
+    margin: auto;
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+#sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 10px;
+}
+
+#navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+    border: 2px solid white;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    color: whitesmoke;
+}
+
+#navigation li {
+    display: inline;
+    float: left;
+}
+
+#navigation a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navigation li a:hover:not(.active) {
+    background-color: deepskyblue;
+}
+
+.active {
+    background-color: deepskyblue;
+}
+
+/* Second Part */
+
+#événements {
+    margin-top: 600px;
+}
